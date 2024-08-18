@@ -28,4 +28,4 @@ User Interaction: Customers receive, interact with, and provide feedback on the 
 
 **Video Demonstration:**
 For a detailed walkthrough of the code implementation and system workflow, please refer to the videos available in the following Google Drive link:
-Google Drive - https://drive.google.com/file/d/1DQmVDuqeDSFnRlRbpCxn9nHkiJTanq_o/view?usp=drivesdk
+Google Drive - https://drive.google.com/file/d/1CpqHLiQf-vc0-jVyYRnXYX2YTg8mB0A1/view
