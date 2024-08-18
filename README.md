@@ -1,5 +1,5 @@
 # BOB_hackathon_solution
-Personalize CFinancial Email Generation System 
+Personalize Financial Email Generation System 
 
 Overview:
 This project aims to create a personalized email generation system that delivers tailored financial advice, transaction summaries, and educational content to customers based on their spending patterns. Leveraging the power of GPT-3.5 Turbo via Azure OpenAI, the system automates content creation and email distribution, enhancing customer engagement and operational efficiency.
