@@ -27,15 +27,27 @@ Customer Email: {email}
 Spending Pattern: {spending_pattern}
 
 Create a compelling subject line and email content with the following elements:
-1. **Subject Line:** Craft an eye-catching subject line that grabs the customer's attention and highlights the benefit of the email content. Use emojis to make it stand out in their inbox.
-2. **Greeting:** A warm and enthusiastic greeting that acknowledges the customer's recent activities, using emojis to add a friendly touch.
-3. **Advice:** Engaging, actionable advice tailored to their spending patterns, including emojis to make it lively.
-4. **Financial Insight:** A section that highlights their spending and how reallocating funds can boost savings, with supportive emojis.
-5. **Educational Content:** An educational section with a link to a relevant course or investment opportunity, using emojis to draw attention.
-6. **Closing Note:** A motivational closing note that encourages further engagement and includes a call to action, making the email feel personal and inspiring.
+1. *Subject Line:* Craft an eye-catching subject line that grabs the customer's attention and highlights the benefit of the email content. Use emojis to make it stand out in their inbox.
+2. *Greeting:* A warm and enthusiastic greeting that acknowledges the customer's recent activities, using emojis to add a friendly touch.
+3. *Educational Course:* Introduce an educational course that is relevant to the customer's financial goals. Include a video link from YouTube or another platform to provide a preview of the course content. Example: [Watch this video](https://www.youtube.com/watch?v=example).
+4. *Financial Report:* Provide a summary of the customer's recent financial activities in a tabular format. Include personalized insights and actionable advice to help them improve their financial health. Here is an example format:
 
-Ensure the email is conversational, inspiring, and encourages the customer to take positive financial actions.
+| *Category*   | *Amount* |
+|----------------|------------|
+| Dining Out     | $100       |
+| Theater        | $50        |
+| Clothing       | $200       |
+| Total Amount   | $350       |
+
+5. *Financial Tip:* Share a relevant financial tip that includes actionable steps and explains the benefits of following the advice.
+6. *Investment Schemes:* Recommend a few investment schemes from Bank of Baroda that align with the customer's financial goals and spending patterns. Explain the benefits and key features of each scheme.
+7. *Closing Note:* A motivational closing note that encourages further engagement and includes a call to action, making the email feel personal and inspiring.
+
+Ensure the email is conversational, inspiring, and encourages the customer to take positive financial actions. End the email with a professional note stating that the message is from Bank of Baroda.
+
+Please format the final email with headings only for the "Subject Line," "Educational Course," "Financial Report," "Financial Tip," and "Investment Schemes." The greeting and closing note should be written as part of the passage without explicit headings.
 """
+
 
 prompt = PromptTemplate(template=template, input_variables=["spending_pattern", "name", "goal", "email"])
 
